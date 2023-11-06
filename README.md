@@ -1,34 +1,24 @@
-
 ```css
-
 /* ==UserStyle==
-
 @name               w
+@namespace          https://github.com/orisgh
 @version            1.0.0
-
-@description        w
-
-@author             [nox](https://github.com/orisgh)
-@namespace          https://github.com/orisgh/nox.user.css
-@homepageURL        https://github.com/orisgh/nox.user.css
-
+@description        2023.11
+@author             nox
 @license            MIT
-
-@preprocessor       stylus
-
+@homepageURL        https://github.com/orisgh/nox.user.css
+@preprocessor       uso
 ==/UserStyle== */
-
 ```
 
-```css
 
+```css
 @preprocessor       stylus
 @preprocessor       uso
-
 ```
 
-```css
 
+```css
 /* ==UserStyle==
 
 @preprocessor stylus
@@ -45,35 +35,30 @@
 @var          number   marg   "Margin between the styles"                            [24, 0, null, 1, 'px']
 
 ==/UserStyle== */
-
 ```
 
-```css
 
+```css
 4
-
 ```
 
-```css
 
+```css
 5
-
 ```
 
-```css
 
+```css
 6
-
 ```
 
-```css
 
+```css
 7
-
 ```
+
 
 ```css
-
 8
-
 ```
+
