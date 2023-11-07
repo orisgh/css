@@ -17,22 +17,32 @@
 ```css
 @preprocessor       stylus
 
-@var        number      maxH    "aaaa"      [400, 0, null, 1, 'px']
-@var        number      noIMG   "bbbb"      [50, 0, null, 1, 'px']
-@var        number      marg    "jjjj"      [24, 0, null, 1, 'px']
+@var        number      maxH        "aaaa"      [400,  0,    null, 1,  'px']
+@var        number      noIMG       "bbbb"      [50,   0,    null, 1,  'px']
+@var        number      marg        "jjjj"      [24,   0,    null, 1,  'px']
 
-@var        select      obFit   "dddd"      ["contain", "cover", "fill"]
-@var        select      obFitH  "eeee"      ["contain", "cover", "fill"]
+@var        select      obFit       "dddd"      ["contain",  "cover",  "fill"  ]
+@var        select      obFitH      "eeee"      ["contain",  "cover",  "fill"  ]
 
-@var        checkbox    ar169   "cccc"      0
+@var        checkbox    ar169       "cccc"      0
 
-@var        text        rIcon   "ffff"      "'★ '"
-@var        text        uIcon   "gggg"      "'📅 '"
-@var        text        wIcon   "hhhh"      "'💾W '"
-@var        text        tIcon   "iiii"      "'💾T '"
+@var        text        rIcon       "ffff"      "'★'"
+@var        text        uIcon       "gggg"      "'📅'"
+@var        text        wIcon       "hhhh"      "'💾W'"
+@var        text        tIcon       "iiii"      "'💾T'"
 ```
 ```css
-1
+@advanced dropdown ada "ada" {
+
+adaa "adaa" <<<EOT
+/* CSS */
+EOT;
+
+adbb "adbb" <<<EOT
+/* CSS */
+EOT;
+
+}
 ```
 ```css
 2
