@@ -15,18 +15,21 @@
 @preprocessor       uso
 ```
 ```css
-@description        w
 @preprocessor       stylus
-@var                number   maxH   "Max height"                                           [400, 0, null, 1, 'px']
-@var                number   noIMG  "Height for styles with no image"                      [50, 0, null, 1, 'px']
-@var                checkbox ar169  "16:9 Aspect ratio"                                    0
-@var                select   obFit  "How the image should be resized to fit its container" ["contain", "cover", "fill"]
-@var                select   obFitH "^ on hover"                                           ["contain", "cover", "fill"]
-@var                text     rIcon  "Rating icon"                                          "'★ '"
-@var                text     uIcon  "Updated icon"                                         "'📅 '"
-@var                text     wIcon  "Weekly installs icon"                                 "'💾W '"
-@var                text     tIcon  "Total installs icon"                                  "'💾T '"
-@var                number   marg   "Margin between the styles"                            [24, 0, null, 1, 'px']
+
+@var        number      maxH    "aaaa"      [400, 0, null, 1, 'px']
+@var        number      noIMG   "bbbb"      [50, 0, null, 1, 'px']
+@var        number      marg    "jjjj"      [24, 0, null, 1, 'px']
+
+@var        select      obFit   "dddd"      ["contain", "cover", "fill"]
+@var        select      obFitH  "eeee"      ["contain", "cover", "fill"]
+
+@var        checkbox    ar169   "cccc"      0
+
+@var        text        rIcon   "ffff"      "'★ '"
+@var        text        uIcon   "gggg"      "'📅 '"
+@var        text        wIcon   "hhhh"      "'💾W '"
+@var        text        tIcon   "iiii"      "'💾T '"
 ```
 ```css
 1
