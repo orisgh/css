@@ -1,0 +1,79 @@
+/* ==UserStyle==
+@name               aa.font-family.EOT
+@namespace          https://github.com/orisgh
+@version            2023.1106
+@description        w
+@author             nox
+@license            MIT
+@homepageURL        https://github.com/orisgh/nox.user.css
+@preprocessor       uso
+
+@advanced dropdown  font-family  "font-family"  {
+font-family_11     "Smiley Sans"                <<<EOT  :root {--font-family: "Smiley Sans";}                EOT;
+font-family_31     "HONOR Sans CN"              <<<EOT  :root {--font-family: "HONOR Sans CN";}              EOT;
+font-family_12     "HarmonyOS Sans SC"          <<<EOT  :root {--font-family: "HarmonyOS Sans SC";}          EOT;
+font-family_12     "HarmonyOS Sans SC Thin"     <<<EOT  :root {--font-family: "HarmonyOS Sans SC Thin";}     EOT;
+font-family_12     "HarmonyOS Sans SC Light"    <<<EOT  :root {--font-family: "HarmonyOS Sans SC Light";}    EOT;
+font-family_12     "HarmonyOS Sans SC Regular"  <<<EOT  :root {--font-family: "HarmonyOS Sans SC Regular";}  EOT;
+font-family_12     "HarmonyOS Sans SC Medium"   <<<EOT  :root {--font-family: "HarmonyOS Sans SC Medium";}   EOT;
+font-family_12     "HarmonyOS Sans SC Bold"     <<<EOT  :root {--font-family: "HarmonyOS Sans SC Bold";}     EOT;
+font-family_12     "HarmonyOS Sans SC Black"    <<<EOT  :root {--font-family: "HarmonyOS Sans SC Black";}    EOT;
+font-family_81     "NSimSun"                    <<<EOT  :root {--font-family: NSimSun;}                      EOT;
+font-family_82     "KaiTi"                      <<<EOT  :root {--font-family: KaiTi;}                        EOT;
+font-family_83     "SimHei"                     <<<EOT  :root {--font-family: SimHei;}                       EOT;
+font-family_91     "sans-serif"                 <<<EOT  :root {--font-family: sans-serif;}                   EOT;
+font-family_92     "serif"                      <<<EOT  :root {--font-family: serif;}                        EOT;
+font-family_93     "monospace"                  <<<EOT  :root {--font-family: monospace;}                    EOT;
+font-family_unset  "unset"                      <<<EOT  :root {--font-family: unset;}                        EOT;
+}
+
+@advanced dropdown  font-weight  "font-weight"  {
+font-weight_300    "300"    <<<EOT  :root {--font-weight: 300; }    EOT;
+font-weight_350    "350"    <<<EOT  :root {--font-weight: 350; }    EOT;
+font-weight_400    "400"    <<<EOT  :root {--font-weight: 400; }    EOT;
+font-weight_450    "450"    <<<EOT  :root {--font-weight: 450; }    EOT;
+font-weight_500    "500"    <<<EOT  :root {--font-weight: 500; }    EOT;
+font-weight_550    "550"    <<<EOT  :root {--font-weight: 550; }    EOT;
+font-weight_600    "600"    <<<EOT  :root {--font-weight: 600; }    EOT;
+font-weight_700    "700"    <<<EOT  :root {--font-weight: 700; }    EOT;
+font-weight_800    "800"    <<<EOT  :root {--font-weight: 800; }    EOT;
+font-weight_900    "900"    <<<EOT  :root {--font-weight: 900; }    EOT;
+font-weight_unset  "unset"  <<<EOT  :root {--font-weight: unset; }  EOT;
+}
+
+@advanced dropdown  text-shadow  "Text Shadow"  {
+text-shadow_10     "000"      <<<EOT  :root {--text-shadow: 0 0 0px;}              EOT;
+text-shadow_12     "001"      <<<EOT  :root {--text-shadow: 0 0 1px;}              EOT;
+text-shadow_14     "004"      <<<EOT  :root {--text-shadow: 0 0 4px;}              EOT;
+text-shadow_17     "007"      <<<EOT  :root {--text-shadow: 0 0 7px;}              EOT;
+text-shadow_112    "0012"     <<<EOT  :root {--text-shadow: 0 0 12px;}             EOT;
+text-shadow_21     "006 001"  <<<EOT  :root {--text-shadow: 0 0 6px, 0 0 1px;}     EOT;
+text-shadow_24     "001 004"  <<<EOT  :root {--text-shadow: 0 0 1px, 0 0 4px;}     EOT;
+text-shadow_26     "001 006"  <<<EOT  :root {--text-shadow: 0 0 1px, 0 0 6px;}     EOT;
+text-shadow_27     "001 007"  <<<EOT  :root {--text-shadow: 0 0 1px, 0 0 7px;}     EOT;
+text-shadow_28     "001 008"  <<<EOT  :root {--text-shadow: 0 0 0.75px, 0 0 8px;}  EOT;
+text-shadow_unset  "unset"    <<<EOT  :root {--text-shadow: unset;}                EOT;
+}
+
+==/UserStyle== */
+@-moz-document regexp("https:\\/\\/.*\\.(com|cn|org|tv|ai)\\/.*") {
+
+    /*[[font-family]]*/
+    /*[[font-weight]]*/
+    /*[[text-shadow]]*/
+    :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+        font-family: var(--font-family) !important;
+        font-weight: var(--font-weight) !important;
+        text-shadow: var(--text-shadow) !important;
+    }
+}
+
+/*
+
+
+
+
+
+
+
+*/

@@ -1,0 +1,65 @@
+/* ==UserStyle==
+@name               aa.font-family.var.02
+@namespace          https://github.com/orisgh
+@version            1.0.0
+@description        2023.1106
+@author             nox
+@license            MIT
+@homepageURL        https://github.com/orisgh/nox.user.css
+@preprocessor       stylus
+
+@var select vsa_font-family "font-family" {
+"Smiley Sans"                : "Smiley Sans"                ,
+"HONOR Sans CN"              : "HONOR Sans CN"              ,
+"HarmonyOS Sans SC"          : "HarmonyOS Sans SC"          ,
+"HarmonyOS Sans SC Thin"     : "HarmonyOS Sans SC Thin"     ,
+"HarmonyOS Sans SC Light"    : "HarmonyOS Sans SC Light"    ,
+"HarmonyOS Sans SC Regular"  : "HarmonyOS Sans SC Regular"  ,
+"HarmonyOS Sans SC Medium"   : "HarmonyOS Sans SC Medium"   ,
+"HarmonyOS Sans SC Bold"     : "HarmonyOS Sans SC Bold"     ,
+"HarmonyOS Sans SC Black"    : "HarmonyOS Sans SC Black"    ,
+"NSimSun"                    : "NSimSun"                    ,
+"KaiTi"                      : "KaiTi"                      ,
+"SimHei"                     : "SimHei"                     ,
+"sans-serif"                 : "sans-serif"                 ,
+"serif"                      : "serif"                      ,
+"monospace"                  : "monospace"                  ,
+"unset"                      : "unset"                      ,
+}
+
+@var number vn_font-weight "font-weight" [400, 200, 900,  50, ""]
+
+@var checkbox vc_text-shadow 'text-shadow' 1
+
+@var number vn_text-shadow_1 "text-shadow" [1, 0, 40,  1, "px"]
+
+@var number vn_text-shadow_2 "text-shadow" [1, 0, 40,  1, "px"]
+
+==/UserStyle== */
+@-moz-document regexp("https:\\/\\/.*\\.(com|cn|org|tv|ai)\\/.*") {
+    if vc_text-shadow {
+        :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+            font-family: vsa_font-family !important;
+            font-weight: vn_font-weight !important;
+            text-shadow: 0 0 vn_text-shadow_1 !important;
+        }
+    }
+
+    else {
+        :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+            font-family: vsa_font-family !important;
+            font-weight: vn_font-weight !important;
+            text-shadow: 0 0 vn_text-shadow_1, 0 0 vn_text-shadow_2 !important;
+        }
+    }
+}
+
+/*
+
+
+
+
+
+
+
+*/
