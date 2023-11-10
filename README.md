@@ -10,10 +10,12 @@
 @updateURL          https://github.com/orisgh/nox.user.css/raw/main/.user.js
 ==/UserStyle== */
 ```
+
 ```css
 @preprocessor       stylus
 @preprocessor       uso
 ```
+
 ```css
 @preprocessor       stylus
 
@@ -31,6 +33,7 @@
 @var        text        wIcon       "hhhh"      "'💾W'"
 @var        text        tIcon       "iiii"      "'💾T'"
 ```
+
 ```css
 @advanced dropdown ada "ada" {
 
@@ -44,12 +47,15 @@ EOT;
 
 }
 ```
+
 ```css
 2
 ```
+
 ```css
 3
 ```
+
 ```css
 4
 ```

@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name               aa.font-weight.var
+@namespace          https://github.com/orisgh
+@version            2023.1107
+@description        w
+@author             nox
+@license            MIT
+@homepageURL        https://github.com/orisgh/nox.user.css
+@preprocessor       stylus
+@var number vn_font-weight "font-weight" [400, 200, 900,  50, ""]
+==/UserStyle== */
+@-moz-document url-prefix("https://") {
+
+    html,
+    body,
+    body * {
+        font-weight: vn_font-weight !important;
+    }
+}
