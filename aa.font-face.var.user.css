@@ -16,78 +16,68 @@
 
 ==/UserStyle== */
 @-moz-document url-prefix("https://") {
-    @font-face {
-        font-family: "microsoft yahei";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "microsoft yahei";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "roboto";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "roboto";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "arial";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "arial";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "-apple-system";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "-apple-system";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "Hiragino Sans GB";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "Hiragino Sans GB";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "BlinkMacSystemFont";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "BlinkMacSystemFont";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "pingfang sc";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "pingfang sc";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "PingFangSC-Medium";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "PingFangSC-Medium";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "PingFangSC-Regular";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "PingFangSC-Regular";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "segoe ui";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "segoe ui";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "helvetica neue";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "helvetica neue";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "helvetica";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "helvetica";
+    src: local("vs_font-face");
+  }
 
-    @font-face {
-        font-family: "WenQuanYi Micro Hei";
-        src: local("vs_font-face");
-    }
+  @font-face {
+    font-family: "WenQuanYi Micro Hei";
+    src: local("vs_font-face");
+  }
 }
-
-/*
-
-
-
-
-
-
-
-*/

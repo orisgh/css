@@ -11,9 +11,9 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://") {
 
-    html,
-    body,
-    body * {
-        font-weight: vn_font-weight !important;
-    }
+  html,
+  body,
+  body * {
+    font-weight: vn_font-weight !important;
+  }
 }

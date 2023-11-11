@@ -57,11 +57,11 @@
 
 ==/UserStyle== */
 @-moz-document regexp("https:\\/\\/.*\\.(com|cn|org|tv|ai)\\/.*") {
-    :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
-        font-family: vsa_font-family !important;
-        font-weight: vsb_font-weight !important;
-        text-shadow: vsc_text-shadow !important;
-    }
+  :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+    font-family: vsa_font-family !important;
+    font-weight: vsb_font-weight !important;
+    text-shadow: vsc_text-shadow !important;
+  }
 }
 
 /*

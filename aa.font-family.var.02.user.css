@@ -37,29 +37,19 @@
 
 ==/UserStyle== */
 @-moz-document regexp("https:\\/\\/.*\\.(com|cn|org|tv|ai)\\/.*") {
-    if vc_text-shadow {
-        :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
-            font-family: vsa_font-family !important;
-            font-weight: vn_font-weight !important;
-            text-shadow: 0 0 vn_text-shadow_1 !important;
-        }
+  if vc_text-shadow {
+    :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+      font-family: vsa_font-family !important;
+      font-weight: vn_font-weight !important;
+      text-shadow: 0 0 vn_text-shadow_1 !important;
     }
+  }
 
-    else {
-        :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
-            font-family: vsa_font-family !important;
-            font-weight: vn_font-weight !important;
-            text-shadow: 0 0 vn_text-shadow_1, 0 0 vn_text-shadow_2 !important;
-        }
+  else {
+    :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+      font-family: vsa_font-family !important;
+      font-weight: vn_font-weight !important;
+      text-shadow: 0 0 vn_text-shadow_1, 0 0 vn_text-shadow_2 !important;
     }
+  }
 }
-
-/*
-
-
-
-
-
-
-
-*/

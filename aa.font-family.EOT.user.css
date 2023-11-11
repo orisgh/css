@@ -58,22 +58,12 @@ text-shadow_unset  "unset"    <<<EOT  :root {--text-shadow: unset;}             
 ==/UserStyle== */
 @-moz-document regexp("https:\\/\\/.*\\.(com|cn|org|tv|ai)\\/.*") {
 
-    /*[[font-family]]*/
-    /*[[font-weight]]*/
-    /*[[text-shadow]]*/
-    :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
-        font-family: var(--font-family) !important;
-        font-weight: var(--font-weight) !important;
-        text-shadow: var(--text-shadow) !important;
-    }
+  /*[[font-family]]*/
+  /*[[font-weight]]*/
+  /*[[text-shadow]]*/
+  :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
+    font-family: var(--font-family) !important;
+    font-weight: var(--font-weight) !important;
+    text-shadow: var(--text-shadow) !important;
+  }
 }
-
-/*
-
-
-
-
-
-
-
-*/
