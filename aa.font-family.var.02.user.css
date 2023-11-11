@@ -49,7 +49,7 @@
     :not(pre):not(i):not(icon):not(.iconfont):not(.bili-dm) {
       font-family: vsa_font-family !important;
       font-weight: vn_font-weight !important;
-      text-shadow: 0 0 vn_text-shadow_1, 0 0 vn_text-shadow_2 !important;
+      text-shadow: unset !important;
     }
   }
 }
